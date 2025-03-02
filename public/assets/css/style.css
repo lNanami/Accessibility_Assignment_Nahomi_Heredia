@@ -96,6 +96,7 @@ input[type=text], input[type=email] {
     margin-bottom: 15px;
 }
 
+
 /* FORM Properties */
 
 form .flexbox {
@@ -111,11 +112,11 @@ form span {
     position: relative;
 }
 #checkbox{
-    background-color: rgb(204, 242, 249);
+    background-color: rgb(221, 246, 250);
 }
 
 /* Hover & Checked */
-form .flexbox:hover span {
+form .flexbox:hover #checkbox {
     background-color: #ccc;
 }
 
